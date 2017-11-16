@@ -1,8 +1,6 @@
 
 # Lazy Fragment
 
-[![](https://jitpack.io/v/VerstSiu/skinchange.svg)](https://jitpack.io/#VerstSiu/lazy_fragment)
-
 Fragments with lazy state control methods.
 
 [Test cases](lazy_fragment_test_cases.txt)
