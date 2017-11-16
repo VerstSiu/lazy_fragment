@@ -1,9 +1,36 @@
 
 # Lazy Fragment
 
+[![](https://jitpack.io/v/VerstSiu/skinchange.svg)](https://jitpack.io/#VerstSiu/lazy_fragment)
+
 Fragments with lazy state control methods.
 
 [Test cases](lazy_fragment_test_cases.txt)
+
+## Download
+
+1.  Add `jitpack` repository at all project's `build.gradle`：
+    
+    ```xml
+    
+    allprojects {
+      repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+      }
+    }
+    
+    ```
+    
+2. Add library denpendency：
+    
+    ```xml
+    
+    dependencies {
+      compile 'com.github.VerstSiu:lib.lazy_fragment:1.0'
+    }
+
+    ```
 
 ## License
 
