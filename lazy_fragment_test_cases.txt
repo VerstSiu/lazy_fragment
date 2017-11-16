@@ -1,0 +1,86 @@
+
+-----
+
+create
+resume
+pause
+destroy
+s.true
+s.false
+
+-----
+
+resume s.true
+pause s.true
+
+s.true create
+s.true resume
+s.true pause
+
+-----
+
+create create s.true
+create resume s.true
+create pause s.true
+create destroy s.true
+create s.true resume
+create s.true pause
+
+resume create s.true
+resume s.true create
+
+pause create s.true
+pause s.true create
+
+s.true create create
+s.true create resume
+s.true create pause
+s.true resume create
+s.true resume destroy
+s.true pause create
+s.true s.false create
+s.true s.false destroy
+
+-----
+
+create resume create s.true
+create resume resume s.true
+create resume pause s.true
+create resume destroy s.true
+create resume s.true create
+create resume s.true resume
+create resume s.true pause
+create resume s.true s.false
+create pause resume s.true
+create destroy create s.true
+create destroy resume s.true
+create s.true resume resume
+create s.true resume pause
+create s.true resume s.false
+create s.true destroy create
+create s.true destroy resume
+create s.true s.false resume
+
+s.true create resume pause
+s.true create destroy create
+s.true create s.true resume
+s.true create s.false resume
+
+-----
+
+create resume pause s.true resume
+create resume pause s.true s.false
+create resume s.true pause resume
+create resume s.true pause s.false
+create resume s.true s.false pause
+create resume s.true s.false s.true
+create s.true resume pause resume
+create s.true resume pause s.false
+create s.true resume destroy create
+create s.true resume s.false pause
+create s.true resume s.false s.true
+
+s.true create destroy create resume
+s.true create destroy s.false create
+s.true create s.false resume pause
+s.true create s.false resume s.true

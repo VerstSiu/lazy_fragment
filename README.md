@@ -1,9 +1,9 @@
 
-# Android Sample Projects
+# Lazy Fragment
 
-Sample projects write with [kotlin](https://github.com/JetBrains/kotlin) and [lambda](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html).
+Fragments with lazy state control methods.
 
-Project list:
+[Test cases](lazy_fragment_test_cases.txt)
 
 ## License
 
